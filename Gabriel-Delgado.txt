@@ -1,0 +1,165 @@
+Completed codepen: https://codepen.io/lateralcreativity/pen/VwvZwGB
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+    Gives meaning to the content on the page.
+
+    2. What is HTML used for? 
+    Sets up the structure of the website.
+
+    3. What is an attribute and where do we put it? 
+    An attribute is the value of a tag, for example in <a href="#"> the href is the attribute and "#" is the value.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    The H1 tag is used to assign the most important content for search engines this is usually assigned to the title of a page.
+
+    5. Name two tags that have required attributes
+    <a> tag requires an href value
+    <img> tag requires a src value
+
+    6. What do we put in the head of our HTML document? 
+    <header> tags with a title and <nav> content inside of them
+
+    7. What is an id? 
+    An id is a type of selector 
+    ex. <a id="test">
+
+    8. What elements can I add an id to? 
+    All of them
+
+    9. How many times can I use the same id on a page? 
+    Once
+
+    10. What is a class? 
+    A class is a type of selector
+    ex. <a class="test">
+
+    11. What elements can I add a class to? 
+    All of them
+
+    12. How many times can I use the same class on a page? 
+    As many times as you want.
+
+    13. How do I get my link to open in a new tab?
+    Assigning target="_blank" after your href will open your link in a new tab.
+
+    14. What is the alt attribute in the image tag used for? 
+    Incase the image does not load or the person is using a screen reader it will show/read the text you have entered to describe it.
+
+    15. How do I reference an id?
+    To reference an id you use a # followed by the id name.
+
+    16. What is the difference between a section and a div
+    Section is used for semantics while div is used for styling.
+
+    17. What is CSS used for? 
+    CSS is used for styling.
+
+    18. How to we select an element? Example - every h2 on the page
+    h2 {
+        
+    }
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    An id can only be used once so you may want to use it on something unique like a parent div.
+    Classes can be reused on multiple elements so this is a very good way to assign styling around your page.
+
+    20. How do we select classes in CSS?
+    .class {
+
+    }
+
+    21. How do we select a p element with a single class of “human””?
+    p.human {
+
+    }
+
+    22. What is a parent child selector? When would this be useful? 
+    >, this can be used to assign a style directly to a child of first element
+
+    23. How do you select all links within a div with the class of sidebar?
+    div a.sidebar {
+
+    }
+
+    24. What is a pseudo selector?
+    A selector used when you have a dynamically changing amount of elements that you still wish to style.
+
+    25. What do we use the change the spacing between lines?
+    line-height
+
+    26. What do we use to change the spacing between letters?
+    letter-spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform
+
+    28. How do I add a 1px border around my div that is dotted and black?
+    div {
+        border: 1px dotted black;
+    }
+
+    29. How do I select everything on the page? 
+    *{
+
+    }
+
+    30. How do I write a comment in CSS?
+    /* Comment goes here */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm
+    You should be careful using this command because it has no confirmation warning and you may accidentally delete something important.
+
+    34. Why should I use version control? 
+    Incase of something breaking you can easily go back to a previous version. Also allows teams to work on independent copies of code.
+
+    35. How often should I commit to github?
+    When something significant has been changed/added.
+
+    36. What is the command we would use to push our repo up to github? 
+    git push -u origin branch-name
+
+    37. Walk me through Lambda's git flow. 
+    First you must always create your own repo by forking what you will work on.
+    Second we add our TL as a collaborator.
+    Third clone your forked repo onto your system. Ex. git clone <link-to-repo>
+    Fourth cd into your clone otherwise you will create a branch in the wrong folder.
+    Fifth create a branch using your name. Ex. git checkout -b 'Gabriel-Delgado'
+
+    After you have made changes and want to update your fork you follow these steps.
+    First you MUST type (git add .) this will get your changes ready.
+    Second we do (git commit -m "Message here") this allows us to attach a message for future reference and to let other people know what we changed.
+    Third we do (git push -u origin branch-name) this sends our local changes to the repo.
+
+    After this we go to our repo on github and select our branch so we can do a pull request.
+    Before we do anything else we MUST change our base repository to our own repo.
+    Finally we add our TL under Reviewers, submit the pull request and wait for our TL to merge it.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+
+    Inline elements only stretch as far as whats in them and they also do not begin on new lines if there are multiples of them, instead they will stack next to each other until there is no more width space.
+
+    Block elements will take up the entire width of the parent container. Ex. We have a header that has a large font and a paragraph element that is a child of it. The paragraph element will stretch all the way to the end of the header leaving a big gap even if the paragraph was only one word. They also begin on new lines if there are multiples of them.
+
+    2. What happens when an element is positioned absolutely? 
+    No space is created for the element in the page layout.
+    
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+
+
+   --> 
